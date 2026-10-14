@@ -4,7 +4,7 @@
 	Put MiniUI.lua in your executor's workspace folder, then run this script.
 ]]
 
-local UI = loadstring(readfile("MiniUI.lua"))()
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/emaankiki/my-Ui-Library/refs/heads/main/miniUI/MiniUI.lua"))()
 
 local Window = UI:CreateWindow({
 	Title = "Mini Hub",
