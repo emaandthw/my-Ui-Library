@@ -6,8 +6,7 @@
 --   Method 2 (host on GitHub and use the raw link):
 --       local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/<user>/<repo>/main/pnkalib.lua"))()
 
-local Library = loadstring(readfile("pnkalib.lua"))()
-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/emaankiki/my-Ui-Library/refs/heads/main/pnkalib/pnkalib.lua"))()
 ----------------------------------------------------------------
 -- 1. Create Window
 --    Title / Desc : Title (red) and description (white) on the top bar
